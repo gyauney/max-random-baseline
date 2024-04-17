@@ -98,3 +98,7 @@ max_order_statistic = MaxOrderStatisticPoissonBinomial(100, 0.5)
 print(max_order_statistic.max_random_baseline(t=10))
 print(max_order_statistic.max_random_baseline(t=100))
 ```
+
+Parameter ranges used in the paper have been tested.
+Calculating values for large `n` will take a while.
+If you find numerical instability outside these ranges, please report an issue.
