@@ -4,20 +4,21 @@ This package implements a simple random baseline that accounts for dataset size
 and evaluation set reuse.
 
 The baseline is the expected maximum accuracy across multiple random classifiers,
-as described in "Stronger Random Baselines for In-Context Learning".
+as described in [Stronger Random Baselines for In-Context Learning](https://arxiv.org/pdf/2404.13020).
 
-## Requirements
+## Installation
+
+You can install this package with pip:
+
+```
+pip install max_random_baseline
+```
 
 This package requires `numpy` and the
-[`PoiBin` Python implementation](https://github.com/tsakim/poibin) of Poisson
-binomial random variables. 
-
-You can install `PoiBin` with:
-
-```
-git clone https://github.com/tsakim/poibin.git
-touch poibin/__init__.py
-```
+[`PoiBin` Python implementation](https://github.com/tsakim/poibin)
+of Poisson binomial random variables. 
+For ease of installation, `PoiBin` is included in this package.
+It is copyright (c) 2016 Mika J. Straka under an MIT License.
 
 ## Quick start
 
