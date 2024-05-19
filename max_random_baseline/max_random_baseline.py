@@ -33,7 +33,7 @@ max_random_baseline(100, [0.5] * 50 + [0.2] * 50, 10)
 import sys
 import math
 import numpy as np
-from poibin.poibin import PoiBin
+from max_random_baseline.poibin.poibin import PoiBin
 
 def max_random_baseline(n, arg, t):
     """
@@ -72,7 +72,7 @@ def max_random_p_value(acc, n, arg, t):
             that are greater than acc
     """
     order = MaxOrderStatisticPoissonBinomial(n, arg)
-    return order.p_value(n * acc, t)
+    return order.p_value(acc, t)
 
 
 def max_random_F(num_correct, n, arg, t):

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="max-random-baseline",
-    version="0.01.00",
+    version="0.1.1",
     author="Gregory Yauney",
     author_email="gyauney@cs.cornell.edu",
     description="A simple random baseline that accounts for evaluation set size and reuse",
@@ -19,5 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.8',
-    install_requires=['numpy', 'mpmath']
+    install_requires=['numpy']
 )

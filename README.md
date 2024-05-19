@@ -11,14 +11,14 @@ as described in [Stronger Random Baselines for In-Context Learning](https://arxi
 You can install this package with pip:
 
 ```
-pip install max_random_baseline
+pip install max-random-baseline
 ```
 
 This package requires `numpy` and the
 [`PoiBin` Python implementation](https://github.com/tsakim/poibin)
 of Poisson binomial random variables. 
 For ease of installation, `PoiBin` is included in this package.
-It is copyright (c) 2016 Mika J. Straka under an MIT License.
+`PoiBin` is copyright (c) 2016 Mika J. Straka under an MIT License.
 
 ## Quick start
 
